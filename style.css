@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body{
+    width: 100%;
+    background: #f9f9f9;
+}
+
+/*
+h1{
+    font-size: 36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #555;
+    font-weight: 400;
+}
+*/
+
+h2{
+    color: #00A0E9; 
+}
+
+/*
+a.fbbutton{
+    margin-top: 16px;
+    font-size: 16px;
+    padding: 8px 32px;
+    background: #3b5598;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+*/
+/*
+a.fbbutton:hover{
+    background: #f9f9f9;
+    color: ##3b5998;
+}
+*/
+
+#main a.fbbutton {
+    font-size: 16px;
+    color: #00A0E9;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 10px 30px;
+    margin-left: 40px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#main a.twitterbutton {
+    font-size: 16px;
+    color: #00A0E9;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 10px 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.button .edge{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none repeat scroll 0 0 #00A0E9;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3se;
+}
+
+/*ボタンの囲む線*/
+.button .edge1{
+    width: 1px;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    -o-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    transition-delay: 0.2s;
+}
+
+.button .edge2{
+    height: 1px;
+    -webkit-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    -o-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+
+.button .edge3{
+    width: 1px;
+    left: auto;
+    right: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    transition-delay: 0.2s;
+}
+
+.button .edge4{
+    height: 1px;
+    top: auto;
+    bottom: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -o-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}
+
+a.button:hover .edge{
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(-0, 0, 0);
+}
+
+#main a.button:active {
+    background-color: #3B5998;
+    color: #fff;
+}
+
+
+
+img{
+    float: left;
+}
+
+p{
+    margin-bottom: 16px;
+}
+
+.content{
+    border-bottom: 1px solid #000;
+    padding: 16px 0;
+    overflow: hidden;
+}
+
+.top-title{
+    font: 36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #555;
+    font-weight: 400;
+    border-left: 6px solid #00A0E9;
+}
+
+.right-box{
+    float: right;
+    width: 288px;
+    margin-left: 18px;
+}
+
+.left-box{
+    float: left;
+    width: 288px;
+    margin-right: 18px;
+}
+
+#main{
+    width: 608px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 16px;
+    float: left;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.content:last-child{
+    border-bottom: 0;
+}
+
+#header{
+    width: 100%;
+    overflow: hidden;
+    background: #00A0E9;
+    padding: 6px 0;
+    position: fixed;
+    z-index: 2;
+}
+
+#header h1{
+    float: left;
+    color: #f9f9f9;
+    margin-right: 48px;
+}
+
+nav{
+    overflow: hidden;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+    margin-top: 2px;
+}
+
+nav a{
+    font-style: 16px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+    margin: 14px 16px 0;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    border-bottom: 3px solid #f9f9f9;
+}
+
+#slidebar{
+    float: left;
+    width: 280px;
+    margin: 0px 12px;
+    background: #fff;
+    padding: 8px;
+}
+
+#slidebar img{
+    margin-bottom: 16px;
+}
+
+#slidebar h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #00A0E9;
+}
+
+#slidebar p{
+    font-size: 16px;
+}
+
+.main-visual{
+    width: 100%;
+    height: 500px;
+    background: #fff url(fukuoka.jpg) 0 0 no-repeat;
+    background-size: cover;
+    margin-bottom: 32px;
+    padding-top: 60px;
+}
+
+p.new{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #00A0E9;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+    font-size: 25px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+#content1 {
+    position: relative;
+}
+
+#content4 {
+    position: relative;
+}
+
+.dissolve-animation {
+    position: relative;
+    width: 300px;
+    float: left;
+}
+
+.dissolve-animation .caption{
+    position: absolute;
+    padding: 20px;
+    background: #00A0E9;
+    height: 160px;
+    width: 260px;
+    
+    /*移動をスムーズにする*/
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    
+    /*透明にする*/
+    opacity: 0;
+}
+
+.dissolve-animation .caption h2{
+    color: white;
+    font-size: 13px;
+}
+
+.dissolve-animation .caption h3 {
+    color: white;
+    font-size: 15px;;
+}
+
+.dissolve-animation:hover .caption {
+    -webkit-transform: translate(8px, 8px);
+    -ms-transform: translate(8px, 8px);
+    -o-transform: translate(8px, 8px);
+    transform: translate(8px, 8px);
+    
+    /*透明だったものを表示させる*/
+    opacity: 1;
+}
+
+.flip-animation {
+    position: relative;
+    width: 300px;
+    float: left;
+    
+    /*奥行きの深さを設定*/
+    -webkit-perspective: 500;
+    -moz-perspective: 500;
+    -ms-perspective: 500;
+    perspective: 500;
+    
+    /*奥行きが始まる位置を設定*/
+    -webkit-perspective-origin: left;
+    -moz-perspective-origin: left;
+    -ms-perspective-origin: left;
+    perspective-origin: left;
+}
+
+#content3 .flip-animation .caption {
+    position: absolute;
+    padding: 20px;
+    background: #00A0E9;
+    height: 160px;
+    width: 100px;
+    
+    /*透明にする*/
+    opacity: 0;
+    
+    /*y軸方向に-90度回転*/
+    -webkit-transform: rotateY(-90deg);
+    -ms-transform: rotateY(-90deg);
+    -o-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+    
+    /*なめらかに*/
+    -webkit-transition: transform 0.4s, opacity 0.1s 0.3s;
+    -o-transition: transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+    
+    /*回転軸を左端に移動*/
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+#content3 .flip-animation .caption h2 {
+    color:white;
+    font-size: 13px;
+}
+
+#content3 .flip-animation .caption h3 {
+    color: white;
+    font-size: 15px;
+}
+
+#content3 .flip-animation:hover .caption {
+    /*透明だったものを表示させる*/
+    opacity: 1;
+    
+    /*y軸０度の位置に回転*/
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    
+    /*なめらかに*/
+    -webkit-transition: transform 0.4s, opacity 0.1s;
+    -o-transition: transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
+}
+
+#content3 .flip-animation:hover img {
+    /*画像をホバーした時に横に移動させる*/
+    -webkit-transform: translateX(25%);
+    -ms-transform: translateX(25%);
+    -o-transform: translateX(25%);
+    transform: translateX(25%);
+    
+    /*なめらかに*/
+    -webkit-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    transition: transform 0.4s;
+}
