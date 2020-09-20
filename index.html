@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html lang="ja">
+ <html lang="ja"> 
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>My Web Site</title>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
+    <!-- ライブラリを連携 -->
+  <script src='library/p5.min.js'></script>
+  <script src='library/p5.sound.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+   <script src='script.js'></script>
+  
 </head>
 <body>
+   
+    
       <div id="header">
           <div class="wrapper">
               <h1>My Web Site</h1>
@@ -18,6 +26,8 @@
                       <li><a href="#content3">Hobby</a></li>
                       <li><a href="#content4">Club</a></li>
                       <li><a href="#content5">Video</a></li>
+                      <li><a href="#work">Work</a></li>
+                      <li><a href="#faq">FAQ</a></li>
                   </ul>
               </nav>
           </div>
@@ -26,6 +36,8 @@
     <div class="main-visual" id="top"></div>
   
    <div class = "wrapper">
+     
+      
        <div id="main">
             <div class="content" id="content1">
             <h1 class="top-title">Profile</h1>
@@ -124,11 +136,58 @@
             </div>
        </div>
        
-       <div id="slidebar">
-           <video src="mediaart.mov" autoplay muted width="280px"></video>
+       <div class="slidebar">
+           <video src="mediaart.mov" autoplay muted width="100%"></video>
            <h3>メディアアートコース</h3>
            <p>p5.jsというプログラミング言語を使用して、インタラクティブなアート作品を作るコースです！</p>
        </div>
+       <div class="slidebar" id="work">
+           <video src="sakuhin.mov" autoplay muted width="100%"></video>
+           <h3>Leaders最終制作</h3>
+           <p>子供の頃によく見ていた夢をp5.jsで再現しました。マイクインした声の高低で視点を調節できます！ぜひ遊んでみてくださいね！</p>
+            <a href="https://t.co/av8bNsZ8kP?amp=1" class="workbutton button">作品サイトへ
+                    <span class="edge edge1"></span>
+                    <span class="edge edge2"></span>
+                    <span class="edge edge3"></span>
+                    <span class="edge edge4"></span>
+            </a>
+       </div>
+       
     </div>
+    <div class="faq-wrapper" id="faq">
+    <div class="container">
+      <div class="heading">
+        <h2>FAQ</h2>
+      </div>
+      <div class="faq">
+        <ul id="faq-list">
+          <li class="faq-list-item">
+            <h3 class="question">友達いますか？</h3>
+            <span>+</span>
+            <div class="answer">
+              <p>上京してまだあまり時間が経ってないので、そんなにいません。ぜひ仲良くしてください。</p>
+            </div>
+          </li>
+          <li class="faq-list-item">
+            <h3 class="question">研究会に入ってますか？</h3>
+            <span>+</span>
+            <div class="answer">
+              <p>入ってます。安宅研です。</p>
+            </div>
+          </li>
+          <li class="faq-list-item">
+            <h3 class="question">お城巡り以外の趣味はありますか？</h3>
+            <span>+</span>
+            <div class="answer">
+              <p>美術館に行くこと、映画鑑賞、旅行です。2日に1本ペースで、映画観てます。</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    <footer>
+    <p>©︎2020 lily</p>
+    </footer>
 </body>
 </html>
