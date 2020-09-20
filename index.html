@@ -14,7 +14,7 @@
 </head>
 <body>
    
-    
+    <!-- ヘッダー-->
       <div id="header">
           <div class="wrapper">
               <h1>My Web Site</h1>
@@ -33,50 +33,47 @@
           </div>
       </div>
       
+    <!--トップ（福岡タワーの写真）-->
     <div class="main-visual" id="top"></div>
   
-   <div class = "wrapper">
-     
-      
+  
+    <!--ここからコンテンツ-->
+    <div class = "contents-wrapper">
+    　　<!--左側(main)-->
        <div id="main">
+           
+            <!--1.Profile 自己紹介-->
             <div class="content" id="content1">
-            <h1 class="top-title">Profile</h1>
-            <p class="new">注目!</p>
-            
-            <div class="dissolve-animation">
-            <img src="lily.jpg" alt="" width="300">
-                <div class="caption">
-                    <h2>2020, 06, 30</h2>
-                    <h3>Momochi, Fukuoka</h3>
+                <h1 class="top-title">Profile</h1>
+                <p class="new">注目!</p>
+                <div class="dissolve-animation">
+                <img src="lily.jpg" alt="" width="300">
+                    <div class="caption">
+                        <h2>2020, 06, 30</h2>
+                        <h3>Momochi, Fukuoka</h3>
+                    </div>
                 </div>
+                    <div class="right-box">
+                    <h2>リリー</h2>
+                    <p>はじめまして！リリーです。<br>
+                    福岡生まれ福岡育ち18歳です。</p>
+                    <a href="https://www.facebook.com/lily.isomata.9" class="fbbutton button">FaceBook
+                        <span class="edge edge1"></span>
+                        <span class="edge edge2"></span>
+                        <span class="edge edge3"></span>
+                        <span class="edge edge4"></span>
+                    </a>
+
+                    <a href="https://twitter.com/rinrinlily" class="twitterbutton button">Twitter
+                        <span class="edge edge1"></span>
+                        <span class="edge edge2"></span>
+                        <span class="edge edge3"></span>
+                        <span class="edge edge4"></span>
+                    </a>
+                    </div>    
             </div>
-                <div class="right-box">
-                <h2>リリー</h2>
-                <p>はじめまして！リリーです。<br>
-                福岡生まれ福岡育ち18歳です。</p>
-                <a href="https://www.facebook.com/lily.isomata.9" class="fbbutton button">FaceBook
-                
-                    <span class="edge edge1"></span>
-                    <span class="edge edge2"></span>
-                    <span class="edge edge3"></span>
-                    <span class="edge edge4"></span>
-                
-                </a>
-                
-                <a href="https://twitter.com/rinrinlily" class="twitterbutton button">Twitter
-                
-                    <span class="edge edge1"></span>
-                    <span class="edge edge2"></span>
-                    <span class="edge edge3"></span>
-                    <span class="edge edge4"></span>
-                
-                </a>
-                </div>
-                
-                
-                </div>
             
-            
+            <!--2.University 大学紹介-->
             <div class="content" id="content2">
                 <h1 class="top-title">University</h1>
                 <div class="left-box">
@@ -87,8 +84,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.7632412866274!2d139.4237537152078!3d35.3863276802641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185394acdc07c3%3A0xc281fed97a64744a!2z5oW25oeJ576p5aG-5aSn5a2m5rmY5Y2X6Jek5rKi44Kt44Oj44Oz44OR44K5!5e0!3m2!1sja!2sjp!4v1599713133944!5m2!1sja!2sjp" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
             
-        
-        
+            <!--3. Hobby 趣味紹介-->
             <div class="content" id="content3">
                 <h1 class="top-title">Hobby</h1>
                     <div class="right-box">
@@ -96,16 +92,16 @@
                     <p>日本のお城が好きです。そのお城にまつわる歴史はもちろん、石垣の美しさや、どうやって敵に備えているかを見るのが楽しいです。<br>現在、100名城中80城に行きました。<br>
                     一番好きなお城は大分の岡城です。</p>
                     </div>
-                    
                     <div class="flip-animation">
                     <img src="castle.jpeg" alt="" width="300">
-                    <div class="caption">
-                        <h2>松本城</h2>
-                        <h3>Mathumaru, Nagano</h3>
-                    </div>
+                        <div class="caption">
+                            <h2>松本城</h2>
+                            <h3>Mathumaru, Nagano</h3>
+                        </div>
                     </div>
             </div>
         
+            <!--4.Club サークル紹介-->
             <div class="content" id="content4">
             <h1 class="top-title">Club</h1>
             
@@ -124,7 +120,7 @@
             </div>
             
             
-            
+            <!--5.Video 推し紹介-->
             <div class="content" id="content5">
                 <h1 class="top-title">Video</h1>
                 <iframe width="300" height="200" src="https://www.youtube.com/embed/jX4FYnsTjus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -132,30 +128,36 @@
                     <h2>東京事変ライブ映像</h2>
                     <p>私の大好きな東京事変というバンドのライブ映像です。</p>
                 </div>
-                
             </div>
        </div>
        
-       <div class="slidebar">
-           <video src="mediaart.mov" autoplay muted width="100%"></video>
-           <h3>メディアアートコース</h3>
-           <p>p5.jsというプログラミング言語を使用して、インタラクティブなアート作品を作るコースです！</p>
+       <!--右側(sub)-->
+       <div class="sub">
+          <!--1.コース紹介-->
+           <div class="slidebar">
+               <video src="mediaart.mov" autoplay muted width="100%"></video>
+               <h3>メディアアートコース</h3>
+               <p>p5.jsというプログラミング言語を使用して、インタラクティブなアート作品を作るコースです！</p>
+           </div>
+           
+          <!--2.作品紹介-->
+           <div class="slidebar" id="work">
+               <video src="sakuhin.mov" autoplay muted width="100%"></video>
+               <h3>Leaders最終制作</h3>
+               <p>子供の頃によく見ていた夢をp5.jsで再現しました。マイクインした声の高低で視点を調節できます！ぜひ遊んでみてくださいね！</p>
+                <a href="https://t.co/av8bNsZ8kP?amp=1" class="workbutton button">作品サイトへ
+                        <span class="edge edge1"></span>
+                        <span class="edge edge2"></span>
+                        <span class="edge edge3"></span>
+                        <span class="edge edge4"></span>
+                </a>
+           </div>
        </div>
-       <div class="slidebar" id="work">
-           <video src="sakuhin.mov" autoplay muted width="100%"></video>
-           <h3>Leaders最終制作</h3>
-           <p>子供の頃によく見ていた夢をp5.jsで再現しました。マイクインした声の高低で視点を調節できます！ぜひ遊んでみてくださいね！</p>
-            <a href="https://t.co/av8bNsZ8kP?amp=1" class="workbutton button">作品サイトへ
-                    <span class="edge edge1"></span>
-                    <span class="edge edge2"></span>
-                    <span class="edge edge3"></span>
-                    <span class="edge edge4"></span>
-            </a>
-       </div>
-       
     </div>
+    
+    <!--FAQ-->
     <div class="faq-wrapper" id="faq">
-    <div class="container">
+     <div class="container">
       <div class="heading">
         <h2>FAQ</h2>
       </div>
@@ -183,11 +185,13 @@
             </div>
           </li>
         </ul>
-      </div>
+     </div>
     </div>
-  </div>
-    <footer>
-    <p>©︎2020 lily</p>
-    </footer>
+   </div>
+   
+  <!--フッター-->
+  <footer>
+   <p>©︎2020 lily</p>
+  </footer>
 </body>
 </html>

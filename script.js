@@ -1,3 +1,4 @@
+//クリックで円が弾ける
 // 配列
 var particles = [];
 
@@ -32,20 +33,19 @@ function draw() {
   }
     
     push();
-      // 文字の色
-      fill(200);
+      // 文字の色(円飛ばしたら見える感じ)
+      fill(255);
 
       // フォント  
       textFont('M PLUS Rounded 1c, sans-serif');  
 
       // 文字のサイズ
-      textSize(25);  
+      textSize(50);  
 
       // 文字の位置  
       textAlign(CENTER, CENTER);  
 
-      text('最後まで見てくれてありがとう！',width/2,height/2); 
-    
+      text('Thank You!',width/2,height/2); 
     pop();
 }
 
@@ -102,9 +102,10 @@ class Particle {
     ellipse(this.position.x, this.position.y, 20);
   }
 }
+//クリックで円が弾ける　ここまで
 
 
-
+//FAQ(Progate jQuery中級編より)
 $(function() {
 
   $('#login-show').click(function() {

@@ -9,139 +9,11 @@ body{
     background: #e6ecf0;
 }
 
-
-/*
-h1{
-    font-size: 36px;
-    padding-left: 8px;
-    margin-bottom: 16px;
-    color: #555;
-    font-weight: 400;
-}
-*/
-
 h2{
     color: #00A0E9; 
 }
 
-/*
-a.fbbutton{
-    margin-top: 16px;
-    font-size: 16px;
-    padding: 8px 32px;
-    background: #3b5598;
-    color: #f9f9f9;
-    border: 1px solid #000;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: 0.5s;
-}
-*/
-/*
-a.fbbutton:hover{
-    background: #f9f9f9;
-    color: ##3b5998;
-}
-*/
-/*ボタン*/
-#main a.fbbutton {
-    font-size: 16px;
-    color: #00A0E9;
-    text-decoration: none;
-    letter-spacing: 3px;
-    padding: 10px 30px;
-    margin-left: 40px;
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-}
 
-
-
-#main a.twitterbutton {
-    font-size: 16px;
-    color: #00A0E9;
-    text-decoration: none;
-    letter-spacing: 3px;
-    padding: 10px 30px;
-    margin-left: 50px;
-    margin-top: 10px;
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-}
-
-.button .edge{
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: none repeat scroll 0 0 #00A0E9;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3se;
-}
-
-/*ボタンの囲む線*/
-.button .edge1{
-    width: 1px;
-    -webkit-transform: translate3d(0, -100%, 0);
-    -ms-transform: translate3d(0, -100%, 0);
-    -o-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    transition-delay: 0.2s;
-}
-
-.button .edge2{
-    height: 1px;
-    -webkit-transform: translate3d(100%, 0, 0);
-    -ms-transform: translate3d(100%, 0, 0);
-    -o-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-}
-
-.button .edge3{
-    width: 1px;
-    left: auto;
-    right: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    -ms-transform: translate3d(0, 100%, 0);
-    -o-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-    transition-delay: 0.2s;
-}
-
-.button .edge4{
-    height: 1px;
-    top: auto;
-    bottom: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    -ms-transform: translate3d(-100%, 0, 0);
-    -o-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-}
-
-a.button:hover .edge{
-    -webkit-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
-    transform: translate3d(-0, 0, 0);
-}
-
-a.button:active {
-    background-color: #3B5998;
-    color: #fff;
-}
-
-
-.wrapper {
-    width: 90%;
-    margin: 0% 5%;
-}
-
-/*写真*/
 img{
     float: left;
     width: 100%;
@@ -151,48 +23,10 @@ p{
     margin-bottom: 16px;
 }
 
-.content{
-/*    border-bottom: 1px solid #CED1D3;*/
-    padding: 30px;
-    margin-bottom: 50px;
-    overflow: hidden;
-    background: #fff;
-    border-radius: 3%;
-}
-
-.top-title{
-    font: 36px;
-    padding-left: 8px;
-    margin-bottom: 16px;
-    color: #555;
-    font-weight: 400;
-    border-left: 6px solid #00A0E9;
-}
-
-.right-box{
-    float: right;
-    width: 45%;
-    margin-left: 3%;
-}
-
-.left-box{
-    float: left;
-    width: 45%;
-    margin-right: 7%;
-}
-
-#main{
-    width: 55%;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 16px;
-    float: left;
-}
-
-
-
-.content:last-child{
-    border-bottom: 0;
+/*ヘッダー*/
+.wrapper{
+    width: 90%;
+    margin: 0% 5%;
 }
 
 #header{
@@ -232,46 +66,10 @@ nav a{
 nav a:hover{
     border-bottom: 3px solid #f9f9f9;
 }
+/*ヘッダーここまで*/
 
-.slidebar{
-    float: left;
-    width: 22%;
-    margin: 16px 30px;
-    background: #fff;
-    padding: 1%;
-    border-radius: 3%;
-}
 
-.slidebar img{
-    margin-bottom: 10%;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.slidebar h3{
-    font-size: 20px;
-    margin: 4% 0;
-    color: #00A0E9;
-}
-
-.slidebar p{
-    font-size: 16px;
-}
-
-.workbutton {
-    font-size: 16px;
-    color: #00A0E9;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: 3px;
-    position: relative;
-    width: 50%;
-    margin: 2% 15%;
-    padding: 10px 25px;
-    overflow: hidden;
-    display: inline-block;
-}
-
+/*トップ（福岡タワーの写真）*/
 .main-visual{
     width: 100%;
     height: 600px;
@@ -281,7 +79,59 @@ nav a:hover{
     margin-bottom: 32px;
     padding-top: 60px;
 }
+/*トップ（福岡タワーの写真）ここまで*/
 
+
+/*コンテンツ*/
+.contents-wrapper {
+    width: 90%;
+    margin: 0% 5%;
+}
+
+/*左側（メイン）*/
+#main{
+    width: 55%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 16px;
+    float: left;
+}
+
+.content{
+/*    border-bottom: 1px solid #CED1D3;*/
+    padding: 30px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 3%;
+}
+
+.top-title{
+    font: 36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #555;
+    font-weight: 400;
+    border-left: 6px solid #00A0E9;
+}
+
+.right-box{
+    float: right;
+    width: 45%;
+    margin-left: 3%;
+}
+
+.left-box{
+    float: left;
+    width: 45%;
+    margin-right: 7%;
+}
+
+.content:last-child{
+    border-bottom: 0;
+}
+
+/*注目シール*/
 p.new{
     width: 70px;
     height: 70px;
@@ -297,6 +147,7 @@ p.new{
     transform: rotate(20deg);
 }
 
+/*画像hover時のアニメーション等*/
 #content1 {
     position: relative;
 }
@@ -432,8 +283,152 @@ p.new{
     -o-transition: transform 0.4s;
     transition: transform 0.4s;
 }
+/*画像hover時のアニメーション等ここまで*/
+/*左側（メイン）ここまで*/
 
-/*faq wrapper*/
+
+/*ボタン(メイン/サブ共通）*/
+#main a.fbbutton {
+    font-size: 16px;
+    color: #00A0E9;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 10px 30px;
+    margin-left: 40px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+
+#main a.twitterbutton {
+    font-size: 16px;
+    color: #00A0E9;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 10px 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.button .edge{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none repeat scroll 0 0 #00A0E9;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3se;
+}
+
+
+/*ボタンの囲む線*/
+.button .edge1{
+    width: 1px;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    -o-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    transition-delay: 0.2s;
+}
+
+.button .edge2{
+    height: 1px;
+    -webkit-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    -o-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+
+.button .edge3{
+    width: 1px;
+    left: auto;
+    right: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    transition-delay: 0.2s;
+}
+
+.button .edge4{
+    height: 1px;
+    top: auto;
+    bottom: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -o-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}
+
+a.button:hover .edge{
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(-0, 0, 0);
+}
+
+a.button:active {
+    background-color: #3B5998;
+    color: #fff;
+}
+/*ボタンここまで*/
+
+
+/*右側(サブ）*/
+.slidebar{
+    float: left;
+    width: 22%;
+    margin: 16px 30px;
+    background: #fff;
+    padding: 1%;
+    border-radius: 3%;
+}
+
+.slidebar img{
+    margin-bottom: 10%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slidebar h3{
+    font-size: 20px;
+    margin: 4% 0;
+    color: #00A0E9;
+}
+
+.slidebar p{
+    font-size: 16px;
+}
+
+.workbutton {
+    font-size: 16px;
+    color: #00A0E9;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 3px;
+    position: relative;
+    width: 50%;
+    margin: 2% 15%;
+    padding: 10px 25px;
+    overflow: hidden;
+    display: inline-block;
+}
+/*右側(サブ）ここまで*/
+
+
+
+
+
+
+/*FAQ*/
 .faq-wrapper {
   clear: left;
   background-color: #fff;
@@ -484,14 +479,14 @@ p.new{
   font-size: 28px;
 }
 
-
-
 .container {
 /*  width: 1170px;*/
   padding: 0 15px;
   margin: 0 auto;
 }
+/*FAQここまで*/
 
+/*フッター*/
 footer{
     clear: left;
     background-color: #00A0E9; 
@@ -502,3 +497,4 @@ footer p{
     margin-bottom: 0;
     text-align: center;
 }
+/*フッターここまで*/
